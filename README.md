@@ -65,7 +65,7 @@ The Seminote platform uses a **speed-adaptive hybrid architecture** that intelli
 | Component | Technology | Purpose |
 |-----------|------------|---------|
 | **iOS App** | Swift/SwiftUI, Core ML, AudioKit | Local processing & UI |
-| **Backend Services** | Java/Spring Boot | Core business logic |
+| **Backend Services** | Java 21/Spring Boot 3.4.1 | Core business logic |
 | **Real-time Services** | Node.js, WebRTC, Socket.io | Audio streaming |
 | **ML Services** | Python, TensorFlow, PyTorch | Machine learning |
 | **Edge Computing** | Go, Docker, Kubernetes | Low-latency processing |
@@ -143,7 +143,7 @@ npm run dev
 | Repository | Description | Technology |
 |------------|-------------|------------|
 | [seminote-ios](https://github.com/seminote/seminote-ios) | iOS mobile application | Swift/SwiftUI |
-| [seminote-backend](https://github.com/seminote/seminote-backend) | Core business services | Java/Spring Boot |
+| [seminote-backend](https://github.com/seminote/seminote-backend) | Core business services | Java 21/Spring Boot 3.4.1 |
 | [seminote-realtime](https://github.com/seminote/seminote-realtime) | Real-time audio streaming | Node.js/WebRTC |
 | [seminote-ml](https://github.com/seminote/seminote-ml) | Machine learning services | Python/TensorFlow |
 | [seminote-edge](https://github.com/seminote/seminote-edge) | Edge computing services | Go/Docker |
